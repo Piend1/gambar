@@ -10,7 +10,7 @@
                 <th>Nama Album</th>
                 <th>Judul</th>
                 <th>Deskkripsi</th>
-                <th>Tanggal Unggah</th>
+                <th>Tanggal Di Unggah</th>
                 <th>Foto</th>
                 <th>Aksi</th>
             </tr>
