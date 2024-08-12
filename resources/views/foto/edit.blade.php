@@ -27,7 +27,7 @@
         <label for="deskripsi">Deskripsi</label>
         <textarea name="deskripsi" id="deskripsi" placeholder="Deskripsi Foto" value="{{ $foto->deskripsi }}" required></textarea>
         </div>
-        <img src="{{ asset("storage/{$foto->lokasi__file}") }}" alt="{{ $foto->judul }}" width="30%" />
+        <img src="{{ asset("storage/{$foto->lokasi_file}") }}" alt="{{ $foto->judul }}" width="30%" />
         <br>
         <div>
             <label for="foto">Foto</label>

@@ -44,7 +44,7 @@ class AlbumController extends Controller
     public function edit($id)
     {
         $album = Album::where("id", $id)->first();
-
+        
         $data = [
             "album" => $album
         ];
