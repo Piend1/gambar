@@ -26,7 +26,7 @@
                 <td>{{ $foto->judul }}</td>
                 <td>{{ $foto->deskripsi }}</td>
                 <td>{{ date("d-m-Y", strtotime($foto->tanggal_unggah)) }}</td>
-                <td><img src="{{ asset("storage/{$foto->lokasi_file}") }}" alt="{{ $foto->judul }}" width="40%"></td>
+                <td><img src="{{ asset("storage/{$foto->lokasi_file}") }}" alt="{{ $foto->judul }}" width="20%"></td>
                 <td>
                     <a href="{{ route('foto.edit', $foto->id) }}">Edit</a>
                     ||
